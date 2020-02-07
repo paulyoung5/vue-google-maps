@@ -1,0 +1,41 @@
+{
+  "name": "vue-google-maps",
+  "version": "0.1.0",
+  "description": "A custom renderer to build maps with Google Maps and Vue",
+  "main": "dist/vue-google-maps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulyoung5/vue-google-maps.git"
+  },
+  "keywords": [
+    "vue",
+    "google",
+    "maps"
+  ],
+  "author": "Paul Young",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulyoung5/vue-google-maps/issues"
+  },
+  "homepage": "https://github.com/paulyoung5/vue-google-maps#readme",
+  "dependencies": {
+    "@vue/runtime-core": "^3.0.0-alpha.4",
+    "google-maps": "^4.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
+    "@vue/babel-preset-jsx": "^1.1.2",
+    "babel-loader": "^8.0.6",
+    "dotenv-webpack": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
